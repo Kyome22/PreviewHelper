@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  PreviewHelper
+
+  Created by Takuto Nakamura on 2020/10/27.
+  
+*/
+
+"newCanvasFor" = "新規キャンバスをプレビュー.appで開く";
+"newCanvas" = "新規キャンバス";
+"createCanvas" = "空のキャンバスを作成する。";
+"saveOpen" = "保存して開く";

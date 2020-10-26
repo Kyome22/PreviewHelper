@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  PreviewHelper
+
+  Created by Takuto Nakamura on 2020/10/27.
+  
+*/
+
+"ExtensionInformative" = "Preview Helper Extension requires permission.";
+"ExtensionMessage" = "Please give permission in the system preferences.";
+"openSystemPreferences" = "Open System Preferences";
+"cancel" = "Cancel";

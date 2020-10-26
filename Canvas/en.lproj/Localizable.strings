@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  PreviewHelper
+
+  Created by Takuto Nakamura on 2020/10/27.
+  
+*/
+
+"newCanvasFor" = "New Canvas for Preview.app";
+"newCanvas" = "New Canvas";
+"createCanvas" = "Create an empty canvas.";
+"saveOpen" = "Save & Open";
