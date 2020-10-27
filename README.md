@@ -18,14 +18,14 @@ Create an empty canvas for Preview.app
 
 # Demo
 
-![Demo](resources/file-0.png)
+![Demo](resources/file0.png)
 
 1. Open the menu by right-clicking on the Desktop or Finder.
 1. Select "New Canvas for Preview.app".
 1. Fill in the filename and the values of the canvas size.
 1. A new empty canvas will be opened automatically with Preview.app.
   
-![Demo](resources/file-1.png)
+![Demo](resources/file1.png)
 
 **You can edit and draw objects on the canvas without any original resource!!**
 
@@ -43,7 +43,7 @@ Create an empty canvas for Preview.app
 1. Open System Preferences -> Extensions.
 1. Check the box of "Preview Helper Extension".
 
-![Demo](resources/file-2.png)
+![Demo](resources/file2.png)
 
 # Contributors
 
