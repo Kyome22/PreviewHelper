@@ -13,9 +13,9 @@
 		1CC8190425471CAF0045A6AC /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8190325471CAF0045A6AC /* FinderSync.swift */; };
 		1CC8190925471CAF0045A6AC /* Canvas.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1CC8190125471CAF0045A6AC /* Canvas.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1CC8191925471E530045A6AC /* AttributesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8191825471E530045A6AC /* AttributesView.swift */; };
-		1CC8191F25471E650045A6AC /* AttributesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8191E25471E650045A6AC /* AttributesView.xib */; };
 		1CC8193225472EF10045A6AC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8193425472EF10045A6AC /* Localizable.strings */; };
 		1CC8193A25472F870045A6AC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8193C25472F870045A6AC /* Localizable.strings */; };
+		1CC8195F2547A7300045A6AC /* AttributesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC819612547A7300045A6AC /* AttributesView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,12 @@
 		1CC8190525471CAF0045A6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CC8190625471CAF0045A6AC /* Canvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Canvas.entitlements; sourceTree = "<group>"; };
 		1CC8191825471E530045A6AC /* AttributesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesView.swift; sourceTree = "<group>"; };
-		1CC8191E25471E650045A6AC /* AttributesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributesView.xib; sourceTree = "<group>"; };
 		1CC8193325472EF10045A6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1CC8193725472F050045A6AC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1CC8193B25472F870045A6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1CC8193F25472F890045A6AC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1CC819602547A7300045A6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AttributesView.xib; sourceTree = "<group>"; };
+		1CC819632547A7360045A6AC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AttributesView.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +118,7 @@
 				1CC8190525471CAF0045A6AC /* Info.plist */,
 				1CC8190625471CAF0045A6AC /* Canvas.entitlements */,
 				1CC8191825471E530045A6AC /* AttributesView.swift */,
-				1CC8191E25471E650045A6AC /* AttributesView.xib */,
+				1CC819612547A7300045A6AC /* AttributesView.xib */,
 				1CC8193C25472F870045A6AC /* Localizable.strings */,
 			);
 			path = Canvas;
@@ -214,7 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC8191F25471E650045A6AC /* AttributesView.xib in Resources */,
+				1CC8195F2547A7300045A6AC /* AttributesView.xib in Resources */,
 				1CC8193A25472F870045A6AC /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +275,15 @@
 				1CC8193F25472F890045A6AC /* ja */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1CC819612547A7300045A6AC /* AttributesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC819602547A7300045A6AC /* Base */,
+				1CC819632547A7360045A6AC /* ja */,
+			);
+			name = AttributesView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

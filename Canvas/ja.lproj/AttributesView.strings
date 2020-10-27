@@ -1,0 +1,18 @@
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "5bp-wX-JPq"; */
+"5bp-wX-JPq.title" = "px";
+
+/* Class = "NSTextFieldCell"; placeholderString = "800"; ObjectID = "9Y1-kc-fqW"; */
+"9Y1-kc-fqW.placeholderString" = "800";
+
+/* Class = "NSTextFieldCell"; title = "Height:"; ObjectID = "UVe-Gn-YUO"; */
+"UVe-Gn-YUO.title" = "高さ:";
+
+/* Class = "NSTextFieldCell"; title = "Width:"; ObjectID = "cp0-Hb-b6T"; */
+"cp0-Hb-b6T.title" = "幅:";
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "eCR-qE-Bb0"; */
+"eCR-qE-Bb0.title" = "px";
+
+/* Class = "NSTextFieldCell"; placeholderString = "450"; ObjectID = "l2y-Fq-ouC"; */
+"l2y-Fq-ouC.placeholderString" = "450";

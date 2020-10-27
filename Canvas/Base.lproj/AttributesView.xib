@@ -35,7 +35,7 @@
                         <textField verticalHuggingPriority="750" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxb-pS-1lz">
                             <rect key="frame" x="48" y="45" width="50" height="21"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="50" id="Irr-eg-GrP"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Irr-eg-GrP"/>
                             </constraints>
                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" placeholderString="800" drawsBackground="YES" id="9Y1-kc-fqW">
                                 <numberFormatter key="formatter" formatterBehavior="custom10_4" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" id="2Ys-KV-Yvc"/>
@@ -63,7 +63,7 @@
                         <textField verticalHuggingPriority="750" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wki-B2-Enj">
                             <rect key="frame" x="52" y="13" width="50" height="21"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="50" id="mUc-uW-SF2"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="mUc-uW-SF2"/>
                             </constraints>
                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" placeholderString="450" drawsBackground="YES" id="l2y-Fq-ouC">
                                 <numberFormatter key="formatter" formatterBehavior="custom10_4" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" id="7Od-Rx-HVy"/>
@@ -81,6 +81,7 @@
                         <constraint firstItem="xLI-9u-70W" firstAttribute="leading" secondItem="Fxb-pS-1lz" secondAttribute="trailing" constant="4" id="7Pb-t4-stW"/>
                         <constraint firstAttribute="bottom" secondItem="Hzw-mj-uaz" secondAttribute="bottom" constant="16" id="EiF-J5-VL0"/>
                         <constraint firstItem="J61-Y6-Z64" firstAttribute="leading" secondItem="Wki-B2-Enj" secondAttribute="trailing" constant="4" id="HU1-IJ-tcF"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="J61-Y6-Z64" secondAttribute="trailing" constant="9" id="UmU-iF-hDy"/>
                         <constraint firstItem="Wki-B2-Enj" firstAttribute="leading" secondItem="Hzw-mj-uaz" secondAttribute="trailing" constant="8" id="aUY-io-e5q"/>
                         <constraint firstItem="ckU-2q-XDD" firstAttribute="firstBaseline" secondItem="Fxb-pS-1lz" secondAttribute="firstBaseline" id="bKO-Lg-k4K"/>
                         <constraint firstItem="Hzw-mj-uaz" firstAttribute="leading" secondItem="pZ7-Ic-uLJ" secondAttribute="leading" id="cTW-y9-WO2"/>
@@ -88,6 +89,7 @@
                         <constraint firstItem="ckU-2q-XDD" firstAttribute="top" secondItem="pZ7-Ic-uLJ" secondAttribute="top" constant="16" id="nPN-gG-pEu"/>
                         <constraint firstItem="Hzw-mj-uaz" firstAttribute="top" secondItem="ckU-2q-XDD" secondAttribute="bottom" constant="16" id="tvW-co-LSZ"/>
                         <constraint firstItem="ckU-2q-XDD" firstAttribute="firstBaseline" secondItem="xLI-9u-70W" secondAttribute="firstBaseline" id="uk3-Nl-q5H"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xLI-9u-70W" secondAttribute="trailing" constant="13" id="vqf-U2-vA2"/>
                     </constraints>
                 </customView>
             </subviews>
