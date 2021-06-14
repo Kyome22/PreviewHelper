@@ -10,3 +10,5 @@
 "ExtensionMessage" = "Please give permission in the system preferences.";
 "openSystemPreferences" = "Open System Preferences";
 "cancel" = "Cancel";
+
+"AlreadyInformative" = "PreviewHelper extension has already been allowed.";

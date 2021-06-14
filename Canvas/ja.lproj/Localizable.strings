@@ -6,7 +6,7 @@
   
 */
 
-"newCanvasFor" = "新規キャンバスをプレビュー.appで開く";
+"openNewCanvas" = "新規キャンバスを開く";
 "newCanvas" = "新規キャンバス";
 "createCanvas" = "空のキャンバスを作成する。";
 "saveOpen" = "保存して開く";

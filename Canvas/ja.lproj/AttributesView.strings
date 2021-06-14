@@ -16,3 +16,6 @@
 
 /* Class = "NSTextFieldCell"; placeholderString = "450"; ObjectID = "l2y-Fq-ouC"; */
 "l2y-Fq-ouC.placeholderString" = "450";
+
+/* Class = "NSTextFieldCell"; title = "Fill Color"; ObjectID = "j1v-eA-iHw"; */
+"j1v-eA-iHw.title" = "塗り色:";

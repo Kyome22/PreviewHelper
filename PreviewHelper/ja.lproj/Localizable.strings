@@ -6,7 +6,9 @@
   
 */
 
-"ExtensionInformative" = "Preview Helperの拡張機能には許可が必要です。";
+"ExtensionInformative" = "PreviewHelperの拡張機能には許可が必要です。";
 "ExtensionMessage" = "システム環境設定にて許可を与えてください。";
 "openSystemPreferences" = "システム環境設定を開く";
 "cancel" = "キャンセル";
+
+"AlreadyInformative" = "PreviewHelperの拡張機能は許可済みです。";

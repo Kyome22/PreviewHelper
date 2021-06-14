@@ -13,17 +13,19 @@ class FinderSync: FIFinderSync {
     override init() {
         super.init()
 
-        FIFinderSyncController.default().directoryURLs = [URL(fileURLWithPath: "/")]
+        FIFinderSyncController.default()
+            .directoryURLs = [URL(fileURLWithPath: "/")]
     }
 
     // MARK: - Menu and toolbar item support
     override func menu(for menu: FIMenuKind) -> NSMenu? {
         let menu = NSMenu(title: "")
-        let item = NSMenuItem(title: "newCanvasFor".localized,
+        let item = NSMenuItem(title: "openNewCanvas".localized,
                               action: #selector(FinderSync.newCanvas(_:)),
                               keyEquivalent: "")
-        let url = URL(string: "file:///System/Applications/Preview.app")!
-        item.image = NSWorkspace.shared.icon(forFile: url.path)
+        if let url = NSWorkspace.shared.urlForApplication(withBundleIdentifier: "com.kyome.PreviewHelper") {
+            item.image = NSWorkspace.shared.icon(forFile: url.path)
+        }
         menu.addItem(item)
         return menu
     }
@@ -46,8 +48,9 @@ class FinderSync: FIFinderSync {
             panel.accessoryView = attributesView
             panel.begin { (response) in
                 if response == .OK, let url = panel.url {
-                    let size = attributesView.getSize()
-                    guard let data = self.createCanvas(size: size) else { return }
+                    let size = attributesView.size
+                    let fillColor = attributesView.fillColor
+                    guard let data = self.createCanvas(size, fillColor) else { return }
                     do {
                         try data.write(to: url)
                         NSWorkspace.shared.openFile(url.path, withApplication: "Preview")
@@ -70,10 +73,10 @@ class FinderSync: FIFinderSync {
         return attributesView
     }
 
-    private func createCanvas(size: NSSize) -> Data? {
+    private func createCanvas(_ size: NSSize, _ fillColor: NSColor) -> Data? {
         let image = NSImage(size: size)
         image.lockFocus()
-        NSColor.white.drawSwatch(in: NSRect(origin: .zero, size: size))
+        fillColor.drawSwatch(in: NSRect(origin: .zero, size: size))
         image.unlockFocus()
         guard let rep = image.tiffRepresentation,
               let bitmap = NSBitmapImageRep(data: rep),

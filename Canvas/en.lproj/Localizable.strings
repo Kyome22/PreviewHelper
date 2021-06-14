@@ -6,7 +6,7 @@
   
 */
 
-"newCanvasFor" = "New Canvas for Preview.app";
+"openNewCanvas" = "Open a new canvas";
 "newCanvas" = "New Canvas";
 "createCanvas" = "Create an empty canvas.";
 "saveOpen" = "Save & Open";
